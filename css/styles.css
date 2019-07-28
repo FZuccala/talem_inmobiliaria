@@ -5,3 +5,37 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+/** Header **/
+.fondo-verde{
+    background-color: var(--primario);
+}
+.fondo-verde-barra{
+    background-color: var(--primario);
+}
+.fondo-naranja{
+    background-color: var(--secundario);
+}
+@media only screen and (min-width: 768px){
+    .barra.fondo-verde-barra{
+        background-color: transparent;
+    }
+    .header{
+        position: relative;
+    }
+    .barra.fondo-verde-barra{
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+    }
+}
+.logo{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.logo span{
+    font-weight: 900;
+}
+.nav-link{
+    text-transform: uppercase!important;
+    color: #ffffff!important;
+}
