@@ -127,7 +127,7 @@ div.testimoniales p::before{
     content: open-quote;
     position: absolute;
     top: 1rem;
-    left: 0;
+    left: -.2rem;
     font-size: 5rem;
     color:#ffffff;
     font-weight: 900;
@@ -135,4 +135,24 @@ div.testimoniales p::before{
 div.testimoniales span{
     font-size: 1.4rem;
     font-weight: 900;
+}
+/** Footer **/
+footer.footer ul li a{
+    transition: all .3s ease-in-out;
+}
+footer.footer ul li a:hover{
+    color: #71b100!important;
+}
+p.copyright{
+    text-align: center;
+    display: block;
+}
+@media only screen and (min-width: 768px){
+    p.copyright{
+        display: inline;
+    } 
+
+}
+.footer.bg-dark{
+    background-color: #333333!important;
 }
